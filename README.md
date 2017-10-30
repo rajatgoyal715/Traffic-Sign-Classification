@@ -2,7 +2,7 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 ### Overview
 
-In this project ,I have built a traffic sign classifier for german traffic signs.The dataset that was used consists of 39000 and 12500 traini and and test images respectively.All the images are in RGB colorspace with the dimensions 32x32x3.I used the very famous Lenet neural network architecture as baseline to modify my own network which is somewhat different from Lenet.The accuracy on validation set is 99.4% and 94.6% on test set correspondingly.On the other random images downloaded from the web,the accuracy came out to be 100%.
+In this project, I have built a traffic sign classifier for german traffic signs. The dataset that was used consists of 39000 and 12500 training and and test images respectively.All the images are in RGB colorspace with the dimensions 32x32x3.I used the very famous Lenet neural network architecture as baseline to modify my own network which is somewhat different from Lenet.The accuracy on validation set is 99.4% and 94.6% on test set correspondingly.On the other random images downloaded from the web,the accuracy came out to be 100%.
 
 ### Dependencies
 This lab requires:
@@ -13,7 +13,7 @@ The lab enviroment can be created with CarND Term1 Starter Kit. Click [here](htt
 
 ### Dataset
 
-1. [Download the dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset#Downloads).
+1. [Download the dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip).
 2. Clone the project and start the notebook.
 ```sh
 git clone https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project
