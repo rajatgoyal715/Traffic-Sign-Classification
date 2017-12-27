@@ -65,7 +65,7 @@ My final model consisted of the following layers:
 To train the model, I used the number of epochs to be 80 initially with the batch size of 100 and learning rate of 0.0009.I observed that the model was overfitting on the training dataset and that the improvement in the model seized after 40-50 epochs.Therefore ,I reduced the epochs to 50 and increased the batch size to 120.
 
 #### Model Approach
-At the very first,after I had done the necessary preprocessing and converted my images to grayscale ,I fed in the whole dataset in LeNet architecture.However,I saw that the accuracy on the test set didn't improve compared to the dataset without additional images.Therefore I modified the network and tuned the hyperparameters for model to learn better.The validation and test set accuracies are on tab 62 and 63 of my code respectively.
+At the very first,after I had done the necessary preprocessing and converted my images to grayscale ,I fed in the whole dataset in LeNet architecture. However, I saw that the accuracy on the test set didn't improve compared to the dataset without additional images.Therefore I modified the network and tuned the hyperparameters for model to learn better.The validation and test set accuracies are on tab 62 and 63 of my code respectively.
 
 My final model results were:
 * training set accuracy of 99.8
@@ -88,7 +88,7 @@ Here are five German traffic signs that I found on the web:
 ![No Vehicles] <img src="new_images/4.jpg"> ![Go straight or left] <img src="new_images/5.jpg"> ![General caution] <img src="new_images/6.jpg">
 
 
-#### The model performed optimally on the new images by classifying each of them correctly.I have also shown a visulaisation in my code at tab 116 to show the input and model's subsequent top 3 guesses.Please refer to the code.
+#### The model performed optimally on the new images by classifying each of them correctly. Please refer to the code.
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
@@ -103,7 +103,7 @@ Here are the results of the prediction:
 
 The model was able to correctly guess 6 of the 6 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 94.6 %.
 
-#### In the tab 116 anf 119 ,I have provided the sofmax probabilities and visualisations of top 3 guesses made by my model 
+#### I have provided the sofmax probabilities and visualisations of top 3 guesses made by my model 
 
 The code for making predictions on my final model is located in the 104th cell of the Ipython notebook.
 
