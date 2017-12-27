@@ -11,8 +11,6 @@ The goals / steps of this project are the following:
 * Use the model to make predictions on new images
 * Analyze the softmax probabilities of the new images
 
-To refer to my project code, here is a link to my [project code](https://github.com/jainSamkit/German_traffic-sign-classifier/blob/master/Traffic_Sign_Classifier.ipynb)
-
 ### Data Set Summary & Exploration
 
 #### 1.The dataset consist of approximately 39000 test images and 12630 training images with dimensions 32X32X3 in RGB color space,obviously! The link to the dataset is (http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset#Downloads).
@@ -116,9 +114,3 @@ For the first image, the model is relatively sure that this is a Ahead-Only sign
 | 1.0         			|  Ahead only 									| 
 | 0.0     				| Go straight or left 										|
 | 0.0				| General Caution											|
-
-
-
-For rest of the images please refer to my code at tab 116.
-
-
